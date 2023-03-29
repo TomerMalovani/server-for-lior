@@ -35,3 +35,11 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+
+// read me!
+
+// npm i 
+// to start : npm run dev
+// for native start ( no hot reload) : npm start
+// 47

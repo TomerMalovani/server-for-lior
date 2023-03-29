@@ -28,7 +28,7 @@ module.exports.registerUser = (req, res) => {
 	);
 }
 
-module.exports.getUserContact =  (req, res) => {
+module.exports.getUserContacts =  (req, res) => {
 	const body = req.body;
 	let {id} = body;
 

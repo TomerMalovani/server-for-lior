@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 const db = require('../config/db');
-const { registerUser, getUserContact } = require('../controllers/usersController');
+const { registerUser, getUserContacts } = require('../controllers/usersController');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
 // register a new user
 router.post('/register', registerUser);
 
-router.get('/contact', getUserContact);
+router.get('/contacts', getUserContacts);
 
 
 
